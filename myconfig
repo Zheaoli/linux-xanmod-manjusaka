@@ -11717,6 +11717,7 @@ CONFIG_MEMTEST=y
 #
 # Rust hacking
 #
+CONFIG_RUST=y
 # end of Rust hacking
 # end of Kernel hacking
 CONFIG_NETKIT=y
