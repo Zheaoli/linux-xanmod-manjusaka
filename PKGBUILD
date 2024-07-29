@@ -76,8 +76,8 @@ fi
 ### IMPORTANT: Do no edit below this line unless you know what you're doing
 
 pkgbase=linux-xanmod-manjusaka
-_major=6.9
-pkgver=${_major}.1
+_major=6.10
+pkgver=${_major}.2
 _branch=6.x
 xanmod=1
 _revision=
@@ -124,9 +124,9 @@ for _patch in ${_patches[@]}; do
 	source+=("${_patch}::https://raw.githubusercontent.com/archlinux/svntogit-packages/${_commit}/trunk/${_patch}")
 done
 
-sha256sums=('24fa01fb989c7a3e28453f117799168713766e119c5381dac30115f18f268149'
+sha256sums=('774698422ee54c5f1e704456f37c65c06b51b4e9a8b0866f34580d86fef8e226'
 	'SKIP'
-	'b21ab56083b2b6d0547469d285fe872d344b655ea593f2e0e981c7d826ae6188'
+	'cee2ed4ab7528cd6c10d9ca76eb31336c25868982a2920fb6fb01daf538596ae'
 	'a8b38eb482eb685944757182c4886404abc12703e5e56ec39c7d61298d17d71f'
 	'SKIP')
 
@@ -155,7 +155,7 @@ prepare() {
 	done
 
 	# Applying configuration
-	cp -vf CONFIGS/xanmod/gcc/${_config} .config
+	# cp -vf CONFIGS/xanmod/gcc/${_config} .config
 	# enable LTO_CLANG_THIN
 	if [ "${_compiler}" = "clang" ]; then
 		scripts/config --disable LTO_CLANG_FULL
