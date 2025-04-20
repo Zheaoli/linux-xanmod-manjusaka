@@ -77,11 +77,11 @@ fi
 
 pkgbase=linux-xanmod-manjusaka
 _major=6.14
-pkgver=${_major}.2
+pkgver=${_major}.3
 _branch=6.x
 xanmod=1
 _revision=
-pkgrel=3
+pkgrel=1
 _sf_branch=edge
 pkgdesc='Linux Xanmod - Current Stable (CURRENT)'
 url="http://www.xanmod.org/"
@@ -126,7 +126,7 @@ done
 
 sha256sums=('a294b683e7b161bb0517bb32ec7ed1d2ea7603dfbabad135170ed12d00c47670'
 	'SKIP'
-	'b3ee5a7c464362bb82dde6e502ab9ad353295f90d0c79e1e2a1df2b4b135ccbb'
+	'3c10b717da0586207c9c88623faaa5a6fab67c88041c50321e11c4c0a75db778'
 	'a8b38eb482eb685944757182c4886404abc12703e5e56ec39c7d61298d17d71f'
 	'SKIP')
 
