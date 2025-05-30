@@ -77,7 +77,7 @@ fi
 
 pkgbase=linux-xanmod-manjusaka
 _major=6.14
-pkgver=${_major}.8
+pkgver=${_major}.9
 _branch=6.x
 xanmod=1
 _revision=
@@ -126,7 +126,7 @@ done
 
 sha256sums=('a294b683e7b161bb0517bb32ec7ed1d2ea7603dfbabad135170ed12d00c47670'
 	'SKIP'
-	'64046f0c7f462db5b079ffa8d31dddc615523fd7b1d495bd427fb5d985ace12f'
+	'355334c4813a9e3467799d775c9937b3ec2408d95e9d52eb473059e286f685a3'
 	'a8b38eb482eb685944757182c4886404abc12703e5e56ec39c7d61298d17d71f'
 	'SKIP')
 
