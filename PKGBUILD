@@ -76,13 +76,13 @@ fi
 ### IMPORTANT: Do no edit below this line unless you know what you're doing
 
 pkgbase=linux-xanmod-manjusaka
-_major=6.17
-pkgver=${_major}.9
+_major=6.18
+pkgver=${_major}.0
 _branch=6.x
 xanmod=1
 _revision=
 pkgrel=1
-_sf_branch=main
+_sf_branch=edge
 pkgdesc='Linux Xanmod - Current Stable (CURRENT)'
 url="http://www.xanmod.org/"
 arch=(x86_64)
@@ -124,9 +124,9 @@ for _patch in ${_patches[@]}; do
 	source+=("${_patch}::https://raw.githubusercontent.com/archlinux/svntogit-packages/${_commit}/trunk/${_patch}")
 done
 
-sha256sums=('9b607166a1c999d8326098121222feb080a20a3253975fcdfa2de96ba7f757a7'
+sha256sums=('9106a4605da9e31ff17659d958782b815f9591ab308d03b0ee21aad6c7dced4b'
 	'SKIP'
-	'ac18fe61fca364c0449d777c66ca760cb729f43ec81ecbecfb3cb02cb7aa1033'
+	'3c00253a4b625baf0d584430ac5197005699cce590ccd2b6c2a41f52ef36d71b'
 	'a8b38eb482eb685944757182c4886404abc12703e5e56ec39c7d61298d17d71f'
 	'SKIP')
 
